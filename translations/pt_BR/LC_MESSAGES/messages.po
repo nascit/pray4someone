@@ -1,0 +1,205 @@
+# Brazilian Portuguese translations for PROJECT.
+# Copyright (C) 2016 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2016.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2017-06-02 21:45+0200\n"
+"PO-Revision-Date: 2017-06-02 00:23+0200\n"
+"Last-Translator: TIMOTEO ALVARENGA <EMAIL@ADDRESS>\n"
+"Language: pl\n"
+"Language-Team: pl <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && "
+"(n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.3.4\n"
+
+#: prayer.py:24
+#, python-format
+msgid "You requested a prayer for: %(value)s ?"
+msgstr "Você requisitou uma oração para: %(value)s ?"
+
+#: prayer.py:27
+msgid "Yes"
+msgstr "Sim"
+
+#: prayer.py:31
+msgid "No"
+msgstr "Não"
+
+#: prayer.py:40
+msgid "help"
+msgstr "ajuda"
+
+#: prayer.py:40
+msgid "prayer"
+msgstr "oração"
+
+#: prayer.py:44
+msgid "Please pray for me"
+msgstr "Por favor, ore por mim"
+
+#: prayer.py:48
+msgid "I want to pray"
+msgstr "Eu quero orar"
+
+#: prayer.py:54
+msgid "Who do I pray for ?"
+msgstr "Por quem eu oro?"
+
+#: prayer.py:58
+msgid "Please choose what do you need ?"
+msgstr "Por favor, escolha o que você deseja ?"
+
+#: prayer.py:73
+msgid ""
+"Sorry but I don't understand you.\n"
+"Type 'help' to get additional information."
+msgstr ""
+"Desculpe, mas não entendi.\n"
+"Digite 'ajuda' para ter mais informações."
+
+#: prayer.py:106
+msgid "You'll be notified when somebody wants to pray for you"
+msgstr "Você será notificado quando alguém quiser orar por você."
+
+#: prayer.py:114
+msgid "I've deleted a prayer request"
+msgstr "Eu deletei u pedido de oração"
+
+#: prayer.py:122
+msgid "What is your prayer request ?"
+msgstr "Qual é seu pedido de oração ?"
+
+#: prayer.py:136
+msgid "There're no prayer requests"
+msgstr "Não há pedidos e oração"
+
+#: prayer.py:154
+#, python-format
+msgid "You're subscribed for the prayer request from user %(name)s"
+msgstr "Você está seguindo os pedidos e oração do usuário %(name)s"
+
+#: prayer.py:155
+#, python-format
+msgid "User %(name)s will be praying in your following request: %(desc)s"
+msgstr ""
+"Usuário %(name)s estará orando pelo seu pedido de oração: "
+"%(desc)s"
+
+#: prayer.py:161
+#, python-format
+msgid "User %(name)s has prayed in your request: %(desc)s"
+msgstr "Usuário %(name)s orou pelo seu pedido de oração: %(desc)s"
+
+#: prayer.py:162
+#, python-format
+msgid "User %(name)s has been notified that you've prayed for him/her. Thank you"
+msgstr ""
+"Usuário %(name)s foi notificado que você orou por ele/ela. Obrigado! "
+
+#: prayer.py:166
+#, python-format
+msgid ""
+"User %(name)s wants to ensure you about his prayer in the following "
+"request: %(desc)s"
+msgstr ""
+"Usuário %(name)s quer que você seja notificado pelo seguinte pedido de oração: "
+"%(desc)s"
+
+#: prayer.py:167
+#, python-format
+msgid "User %(name)s has been ensured that you pray for him"
+msgstr ""
+"Usuário %(name)s foi notificado que você orou por ele"
+
+#: prayer.py:173
+#, python-format
+msgid ""
+"Thank you for your will of praying. User %(name)s won't be notified about"
+" you giving up."
+msgstr ""
+"Obrigado pelo seu desejo de orar. Usuário %(name)s não será notificado "
+"powiadomiony o Twojej rezygnacji"
+
+#: prayer.py:190
+msgid "I am praying"
+msgstr "Estou orando"
+
+#: prayer.py:204
+msgid "I've prayed"
+msgstr "Eu orei"
+
+#: prayer.py:208
+msgid "Ensure about your prayer"
+msgstr "Assegure sua oração"
+
+#: prayer.py:212
+msgid "Stop your prayer"
+msgstr "Parar sua oração"
+
+#: prayer.py:58
+msgid "bible"
+msgstr "biblia"
+
+msgid ""
+", God bless you!\nType 'prayer' to see prayer options or 'Bible' to get Bible"
+" verse for you."
+msgstr ", Deus te abençõe! Digite oração 'oração', para ver opções de orações ou 'Biblia', para ver a bíblia!"
+
+msgid "Did you pray in below request ?\n%(value)s"
+msgstr "Você orou nos pedidos abaixo ?\n%(value)s"
+
+msgid "Thank you for your will of praying."
+msgstr "Obrigado pelo seu desejo de orar."
+
+msgid "Please pray. Someone is counting on you.\nI will ask you again tomorrow."
+msgstr "Por favor ore. Alguém está contando com você.\nVou lhe pedir de novo amanhã."
+
+msgid "Unknown"
+msgstr "Desconhecido"
+
+msgid "God is light; in him there is no darkness at all."
+msgstr "Deus é a luz do mundo!"
+
+msgid "Maybe you can pray for someone ?"
+msgstr "Talvez você possa orar por alguém ?"
+
+msgid "Or maybe you need a prayer ?"
+msgstr "Ou talvez você necessite de oração ?"
+
+msgid "My intentions"
+msgstr "Minhas intenções"
+
+msgid "Your last few intentions:"
+msgstr "Suas últimas intenções:"
+
+msgid "You don't have any intentions"
+msgstr "Você não possui nenhuma intenção"
+
+msgid "There is no such prayer request"
+msgstr "Esse pedido de oração não existe"
+
+msgid "You've reached maximum intentions count. Please come back in few days."
+msgstr "Você não pode mais criar intenções."
+
+msgid "You've reached maximum prayers count. Please pray in your already selected intentions first."
+msgstr "Você chegou ao máximo."
+" Pomódl się proszę najpierw w już wybranych przez Ciebie intencjach."
+
+msgid "Delete"
+msgstr "Deletar"
+
+msgid "User %(name)s will be notified about your thankfulness."
+msgstr "Usuário %(name)s será notificado de seu agradecimento."
+
+msgid "User %(name)s wants to thank you for your prayer in the following request: %(desc)s."
+msgstr "Usuário %(name)s gostaria de te agradecer pela sua oração na seguinte oração: %(desc)s."
+
+msgid "Send thank you"
+msgstr "Envie um obrigado"
